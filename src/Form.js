@@ -21,6 +21,14 @@ class Form extends React.Component {
     onSubmit = e => {
         e.preventDefault();
         this.props.onSubmit(this.state);
+        this.setState({
+            firstName: '',
+            lastName: '',
+            NPINumber: '',
+            businessAddress: '',
+            telephoneNumber: '',
+            emailAddress: ''
+        });
     };
 
     render() {
