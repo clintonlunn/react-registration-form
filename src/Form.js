@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-// export default class Form extends React.Component {
 class Form extends React.Component {
     state = {
         firstName: '',
@@ -46,10 +45,3 @@ class Form extends React.Component {
     }
 }
 export { Form };
-
-
-{/* <input placeholder="last name" value={this.state.lastName} />
-<input placeholder="npi number" value={this.state.NPINumber} />
-<input placeholder="business address" value={this.state.businessAddress} />
-<input placeholder="telephone number" value={this.state.telephoneNumber} />
-<input placeholder="email address" value={this.state.emailAddress} /> */}
