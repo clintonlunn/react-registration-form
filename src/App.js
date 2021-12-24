@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Form } from './Form'
+import RegistrationForm from './components/RegistrationForm'
 
 
-class App extends Component {
-
-  onSubmit = fields => {
-    console.log("These are the fields: ", fields);
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Form onSubmit={fields => this.onSubmit(fields)} />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <RegistrationForm />
+  </div>
+)
 
 export default App;
