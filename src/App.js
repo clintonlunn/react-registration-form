@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import RegistrationForm from './RegistrationForm'
+import RegistrationForm from './components/RegistrationForm'
 
 
 const App = () => (
